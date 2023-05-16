@@ -29,16 +29,18 @@ class InventoryMapping:
     def check_recipe_availability(self, recipe: Recipe):
         try:
             return all(
-                [self.inventory[key] >= recipe[key] for key in recipe.keys()]
+                [
+                    self.inventory[ingredient] >= recipe[ingredient]
+                    for ingredient in recipe.keys()
+                ]
             )
         except KeyError:
             return False
 
     # Req 5.2
     def consume_recipe(self, recipe: Recipe) -> None:
-        pass
-
-
-# print("=&=&=" * 10 + "\n")
-#         print(recipe)
-#         print("=&=&=" * 10 + "\n")
+        for ingredient in recipe.keys():
+            if self.inventory[ingredient] >= recipe[ingredient]:
+                self.inventory[ingredient] -= recipe[ingredient]
+            else:
+                raise ValueError
