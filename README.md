@@ -42,7 +42,10 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 
 
 ### Habilidades trabalhadas
-
+- Praticar o conceito de `Hashmaps` através das estruturas de dados `Dict` e `Setdo` Python;
+- Praticar a ferramenta `Pandas` junto a sua estrutura de dados `DataFrame`;
+- Praticar os conhecimentos de testes de software;
+- Praticar os conhecimentos de orientação a objetos.
 
 ### Construido Com
 
