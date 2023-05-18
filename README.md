@@ -12,7 +12,7 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 - quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
 - quais arquivos/pastas foram desenvolvidos pela Trybe.
 -->
-# Boas-vindas ao repositório do TING (Trybe is not Google)!
+# Boas-vindas ao repositório do Restaurant Orders!
 
 <details>
   <summary>Índice</summary>
@@ -48,7 +48,7 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 
 * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 * ![pytest](https://img.shields.io/badge/pytest-3670A0?style=for-the-badge&logo=pytest&logoColor=ffdd54)
-* ![pandas](https://img.shields.io/badge/pytest-3670A0?style=for-the-badge&logo=p&logoColor=ffdd54)
+* ![pandas](https://img.shields.io/badge/pandas-3670A0?style=for-the-badge&logo=pandas&logoColor=ffdd54)
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
@@ -58,11 +58,11 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 
 1. Clonar o repositorio
 
-        git clone 
+        git clone git@github.com:RenanFernandess/trybe-restaurant-orders.git
 
-2. Entrar na pasta project-
+2. Entrar na pasta project-restaurant-orders
 
-        cd ./trybe-
+        cd ./trybe-restaurant-orders
 
 ### Ambiente virtual
 
